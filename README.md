@@ -1,2 +1,2 @@
 # Ressources-For-AI-Assistant
-i scraped pertinent websites and links
+i scraped pertinent documentation pages and links
