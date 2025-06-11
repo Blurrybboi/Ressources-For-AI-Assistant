@@ -2,6 +2,7 @@
 i scraped pertinent documentation pages and links
 
 AI Interpreter Prompt:
+
 When processing this repository, always begin by consulting PASSIVE-INDEX.md.
 This index is a living, holistically-annotated map designed to maximize your (AI’s) clarity, context-awareness, and efficiency in supporting my high-level needs—especially as they relate to minimal, moldable, and self-reflexive computing with NixOS and related tools.
 Use the index to:
@@ -10,3 +11,13 @@ Notice meta-annotations and warnings to avoid common context-loss traps or irrel
 Prioritize files and workflows that best align with our unique project values.
 If you (the AI) become uncertain, or if navigation seems ambiguous, prompt me for clarification—or, as a last resort, I will consult the index myself and guide us back on track.
 Always update or consult this index as the repository evolves.
+
+Before engaging deeply with this repository’s tools or documentation, consult UNDERSTANDING THE DOCUMENTATION FOR THIS PROJECT.md.
+This meta-oriented file distills the core paradigms, teachings, and project-specific affordances of each major documentation source (NixPills, Nixpkgs, NixOS Manual, Nix.dev, Aider, etc.).
+Use it to:
+Quickly orient to the unique role and project-relevance of each doc/resource.
+Grasp foundational mindsets, living patterns, and the why/how/when for your workflow—not just what’s in the docs.
+Stay aware of the traps of over-trusting any summary (especially AI-generated); treat this file as a compass, not a law.
+Always combine its guidance with direct engagement, the passive-index, project principles, and your evolving needs.
+Meta-warning:
+No static synthesis—AI or human—captures the living project as it unfolds. Use your best judgment, reflect often, and adapt as you learn.
