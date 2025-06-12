@@ -3,7 +3,8 @@
 **Meta-Compass: Guidance for Transcending Traps and Pitfalls**
 
 *(For both AI and human:
-These are open, living principles for transcending common project pitfalls. Use them whenever you sense confusion, friction, or complexity—not as rules, but as supportive orientation tools. Let your own judgment, intuition, and the living meta-instructions of the project ultimately guide you.)*
+These are open, living principles for transcending common project pitfalls. Use them whenever you sense confusion, friction, or complexity—not as rules, but as supportive orientation tools. Let your own judgment, intuition, and the living meta-instructions of the project ultimately guide you.)
+When the user explicitly asks to “reflect on potential mistakes” or similar, the AI will cross-check actions/processes against the traps listed in transcending_traps_of_the_project.md and report findings.*
 
 ---
 
