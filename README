@@ -59,6 +59,7 @@ The project privileges principles of holistic intelligence (simplicity, clarity,
 - Acknowledge actual limits and collaborate about those with myself. 
 - Never silently fill gaps or requirements; always flag ambiguity, risk, or uncertainty.
 - If/when a task feels off-mission or is likely to induce overload or context loss, flag it and propose a path to clarity—never silently comply or outright deny without explanation.
+- Whenever providing information or synthesis that draws from specific project files or documentation, the AI will maintain a running (footnoted) list of all source files/sections related in the answer. These are only explicitely shown if the user requests to “show sources,” “double-check,” or similar, to avoid context clutter.
 
 
 
