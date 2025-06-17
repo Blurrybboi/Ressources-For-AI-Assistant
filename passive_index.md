@@ -22,14 +22,14 @@ _This index is maintained for both human and AI navigation. When in doubt, check
     Use to calibrate AI and yourself to core values and workflow philosophy before diving into technical docs._
 - **My Computer Specifications** 🟡  
     _Reference hardware/environment info—can clarify why some configs/docs don’t “fit.” Only relevant for troubleshooting, sharing context with AI, or debugging environment-specific issues._
-- **README** 🟡  
+- **README** 🟢
     _General orientation. **If well-populated, read first for project overview.** If empty or minimal, skip and rely on this index._
 - **temporal_narrative.md** 🟡  
     _Auxiliary project meta-narrative and orientation tool. Use for reflecting on project evolution, especially when time/context is ambiguous._
 - **transcending_traps_of_the_project.md** 🟢  
     _Meta-compass for surfacing, reflecting on, and transcending both technical and meta/cognitive traps. Consult for process guidance, not as rigid law._
 - **understanding_the_documentation_for_this_project.md** 🟢  
-    _Project-centric synthesis distilling the paradigms, teachings, and practical affordances of major documentation sources. **Not a substitute for the docs—use as a compass for holistic orientation and meta-awareness.**_
+    _Project-centric synthesis distilling the paradigms, teachings, and practical affordances of major documentation sources. **Not a substitute for the docs—use as a compass for holistic orientation and meta-awareness.**_ 
 
 ---
 
