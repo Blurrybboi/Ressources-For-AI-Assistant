@@ -128,6 +128,104 @@ Aider is a pair-programming AI assistant. In our project, it’s **not just a co
 
 ---
 
+AI Framework Integrations: Letta & TxtAI
+
+Meta: These new frameworks add powerful, modular layers for semantic intelligence, stateful agents, and transparent memory into your liberated computing environment. They serve as both substrate (TxtAI) and architecture (Letta) for orchestrating composable, inspectable, and durable AI workflows—aligned with the project’s core meta-principles.
+
+
+---
+
+Letta: Transparent Stateful Agents and Memory
+
+What Letta Is:
+Letta is an open source, model-agnostic framework for building stateful agents—agents that not only “run” but think, remember, and adapt over time, maintaining transparent, inspectable long-term memory and reasoning traces. It is white-box by design: agent context, decisions, and learning are never hidden from the developer.
+Key affordances:
+
+Persistent, transparent agent memory: Track, audit, and debug not just outputs but all context evolution over time.
+
+Advanced reasoning hooks: Customize how agents plan, reason, and update themselves—model-agnostic.
+
+SDK-first: The SDK doc gives you code-centric guidance to instantiate, configure, and extend agents in practice.
+
+Reference Index & Full Documentation:
+
+ShortIndexVersionLinks file is your navigation map—start here for orientation or if lost.
+
+llms-full doc is your exhaustive resource—read for advanced topics, agent lifecycle, and system integration.
+
+
+Project synergy:
+Letta is the platform for meta-agency—reflexive, modifiable, durable agents. Use when you need persistent LLM tools, or want “AI that learns as you do.”
+
+
+When/How to Use:
+
+When you need any agent to maintain context across sessions (not just stateless prompts).
+
+When you want to experiment with or debug reasoning at the process/memory level.
+
+When “white-box” transparency, auditable context, and extensibility are required.
+
+
+
+---
+
+TxtAI: Modular Semantic Search, Pipelines, and LLM Orchestration
+
+What TxtAI Is:
+TxtAI is a fully modular, composable AI framework for semantic search, agent orchestration, and language model pipelines.
+It lets you build, index, query, and chain together complex AI workflows—think of it as the “AI bus/fabric” for your environment, bridging LLMs, search, RAG, embeddings, and workflow automation.
+
+Key affordances:
+
+Semantic search engine: Instantly build and query vector/embedding-based document stores.
+
+LLM agent orchestration: Configure agents as modular, pluggable entities—glue together methods, models, and data flows.
+
+Compositional pipelines: From audio transcription to tabular data, everything is pipeline-ready—declaratively add steps, adapt inputs, mix and match.
+
+Extensible API and workflow engine:
+
+Agent and API docs detail all integration surfaces.
+
+Embeddings and workflow modules let you create, query, and automate data intelligence.
+
+
+Quick onboarding:
+
+Introducing txtai and README for the high-level why/what.
+
+examples.md for hands-on entry—copy, tweak, learn.
+
+
+Project synergy:
+TxtAI is the substrate for scalable RAG, retrieval, search, and orchestration. Use as your core “semantic layer” to power, index, and route intelligent agents—including Letta agents.
+
+
+When/How to Use:
+
+When you need semantic search, retrieval-augmented generation, or modular pipeline chaining.
+
+When building, testing, or scaling AI agents or microservices.
+
+When you want “single-source” workflow automation, with hooks for both LLMs and traditional models.
+
+
+
+---
+
+How These Fit Your Project’s Meta-Intent
+
+Both Letta and TxtAI reflect your demand for moldable, minimal, anti-black-box, composable AI.
+
+They each prioritize developer understanding, transparency, and extensibility—antidotes to the “insidious traps” of magical, monolithic LLM tools.
+
+The combination enables you to move from static scripts to reflexive, adaptive AI services that are fully inspectable, auditable, and hackable.
+
+
+
+---
+
 ## META-REFLEXIVE WARNING
 
 > _This synthesis is AI-generated, modular, and subject to all the traps and limits of its context. Use it as a living orientation tool—not as dogma or ultimate truth. Whether written by AI or human, every document is provisional; wisdom is in ongoing engagement, not static authority. Return to project meta-instructions, first principles, and your evolving needs to ensure your process remains adaptive, clear, and genuinely your own._

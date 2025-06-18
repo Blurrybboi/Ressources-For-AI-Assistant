@@ -235,3 +235,152 @@ _Practical usage docs, tips, and tutorials.
 - **index.md, install.md, languages.md, llms.md, more-info.md, repomap.md, scripting.md, troubleshooting.md, unified-diffs.md, usage.md** –  
     _Misc docs—use index and file names to judge relevance, or search this passive-index for clarification._
 
+    ---
+
+Letta/
+
+Meta: Framework for building transparent, stateful agents with long-term memory and model-agnostic design. Integrates advanced reasoning and persistent, inspectable agent context into your stack. If you want agents to learn, adapt, or “think” over time—start here.
+
+(Prompt)GeneralinstructionsfortheLettaSDKs.txt 🟢
+First stop for hands-on SDK use.
+Step-by-step instructions for installing, configuring, and using Letta’s SDKs.
+Details practical agent instantiation, persistent memory, advanced reasoning hooks, and developer options.
+If you want to write code or integrate Letta with other tools, start here for code-centric guidance.
+Clarifies both high-level purpose and low-level API calls—use as a bridge between docs and real code.
+
+LettaDocumentation(ShortIndexVersionLinksForLLM).html 🟢
+Fast navigation/reference.
+Index-style HTML: quickly find key Letta concepts, APIs, and architecture overviews.
+Use as a jumping-off point for deeper dives, or if you’re unsure which agent feature or method you need.
+Helpful when you need a “bird’s eye view” of Letta’s extensibility, core modules, or for orienting new users/contributors.
+Not a replacement for the full doc—start here, then jump to details as needed.
+
+LettaDocumentation(llms-full).html 🟢
+Full, in-depth documentation.
+Explains the complete Letta architecture: agent lifecycle, persistent state/memory, reasoning models, and all API surface area.
+Read for complete understanding of how Letta agents are built, operate, and can be extended or debugged.
+Use if you’re building complex agents, experimenting with meta-reasoning, or integrating Letta with other LLM tools like TxtAI.
+(Warning: Can be dense—navigate via the ShortIndex if lost. Return here for specifics after orienting yourself.)
+
+
+
+---
+
+TxtAI/
+
+Meta: All-in-one AI framework for semantic search, LLM orchestration, and modular language model workflows. Lets you build, query, and connect pipelines, embeddings, and agentic workflows—ideal as the “AI fabric” of your stack. Start here if you want scalable RAG, search, agent pipelines, or workflow automation.
+
+Introducing txtai, the all-in-one AI framework.md 🟢
+Project overview and value prop.
+Read first for “what is txtai, why use it, and how it fits into a modern AI stack.”
+Good for evaluating if txtai solves your problem before deep-diving APIs or examples.
+
+README.txt 🟢
+Orientation for new users.
+Gives high-level concepts, install/start info, and project roadmap.
+Reference for initial “how to use txtai in my environment?”
+
+index.md 🟢
+Table of contents.
+Scan for all major modules—jump to topic of current challenge.
+Use for mapping the overall doc structure, especially if feeling lost.
+
+faq.md 🟡
+Quick answers to common blocks—review if you’re troubleshooting or hitting conceptual snags.
+
+install.md 🟢
+Step-by-step install.
+Reference for all supported platforms (local/cloud).
+Use this before debugging install failures with generic advice.
+
+cloud.md 🟡
+Covers cloud-specific deployment/integration tips.
+Useful if deploying at scale, but not required for local experiments.
+
+examples.md 🟢
+Hands-on code and workflow examples.
+Fastest way to “see txtai in action.”
+Browse to understand best practice patterns, then adapt to your stack.
+
+models.md 🟡
+Details available model integrations and selection.
+Use if customizing or optimizing semantic/LLM backends.
+
+usecases.md 🟡
+Annotated use case gallery.
+Reference if looking for inspiration or validating fit.
+
+why.md 🟡
+Design rationale and philosophy.
+Good for onboarding skeptical users or understanding long-term direction.
+
+observability.md 🟡
+How to monitor/debug txtai workflows and agents in production.
+Review if building robust, auditable systems.
+
+
+txtai/agent/
+
+Meta: Create and configure modular LLM agents. If you want bots or services that leverage LLMs with custom methods, start here.
+
+index.md 🟢 Overview of txtai agent module—jumping off point for specific agent capabilities and config.
+
+configuration.md 🟢 How to declaratively set up agents, define methods, and wire up model orchestration.
+
+methods.md 🟡 All supported agent “verbs” (actions, skills)—scan for what your agents can actually do.
+
+
+txtai/api/
+
+Meta: APIs for connecting, customizing, and scaling txtai services.
+
+index.md 🟢 API entrypoint, overview, and endpoints. Always check here before scripting or integrating programmatically.
+
+customization.md 🟡 How to extend/modify API for your use case—use when built-ins don’t fit.
+
+cluster.md, openai.md, security.md 🟡 Specialized API integrations. Only needed for advanced or multi-service deployment.
+
+methods.md 🟡 Full method reference for API endpoints.
+
+
+txtai/embeddings/
+
+Meta: Core of semantic search and document vectorization—start here for indexing/querying unstructured data.
+
+index.md 🟢 Conceptual map for embeddings—start here if lost in “vector soup.”
+
+format.md 🟡 Details file formats and schema support for embeddings (rarely needed unless working with unusual data).
+
+indexing.md 🟢 Practical guide for indexing new data—use for building your own search corpus.
+
+methods.md 🟡 Reference for all embedding pipeline methods—check for feature fit.
+
+query.md 🟢 How to run queries—core for semantic search. Always read if search isn’t working as expected.
+
+
+txtai/embeddings/configuration/
+
+cloud.md, database.md, index.md 🟡 Specialized embedding storage/config tips. Needed only for advanced setups.
+
+
+txtai/pipeline/
+
+Meta: Orchestrate modular, pluggable steps for audio, data, image, text, and training.
+
+index.md 🟢 Workflow map for pipeline module. Start here to understand how pieces fit.
+
+audio/.md, data/.md, image/.md, text/.md, train/*.md 🟡
+Docs for all pipeline stages. Read the “index” first—open specifics only when customizing that stage.
+
+
+txtai/workflow/
+
+Meta: Build and automate composable AI workflows (scheduling, tasks, storage, templating, etc.).
+
+index.md 🟢 Overview and conceptual map of workflow engine—scan for all possible automations.
+
+schedule.md, task/*.md 🟡 Details on cron-like scheduling, task orchestration, and specialized task modules.
+
+
+
+---
